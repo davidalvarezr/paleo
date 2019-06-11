@@ -21,8 +21,16 @@
     display: inline-block;
 }
 
-.locked {
-    background: blue !important;
+.locked:before {
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    content: "";
+    z-index: 1;
+    margin: 0 -10px;
+}
 }
 
 .gallery {
