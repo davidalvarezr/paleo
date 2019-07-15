@@ -1,2 +1,2 @@
-web: node code/server/bin/www
+web: npm start
 
