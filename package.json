@@ -1,0 +1,23 @@
+{
+  "name": "paleo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "postinstall": "cd code/server && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidalvarezr/paleo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidalvarezr/paleo/issues"
+  },
+  "homepage": "https://github.com/davidalvarezr/paleo#readme"
+}
