@@ -21,7 +21,7 @@ function generateQRCODE( id_cocktail, price ) {
 
 function validateCode() {
     code = $('#code').val()
-    $.getJSON('http://localhost:3000/code/validate/' + code, function(res){
+    $.getJSON('/code/validate/' + code, function(res){
         _points = parseInt(res.points)
         points += _points
         setPoints(points)
